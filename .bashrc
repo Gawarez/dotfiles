@@ -30,3 +30,7 @@ alias gl='git log'
 alias glp='git log --pretty=oneline'
 alias gsb='git switch '
 alias gb='git branch'
+
+# VCS
+alias glab='cd ~/Documents/Gitlab'
+alias ghub='cd ~/Documents/Github'
