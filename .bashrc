@@ -1,12 +1,25 @@
 # Source the ~/.bashrc file if it exists
 if [ -f ~/.bashrc ]
 then
-    . ~/.bashrc
+  . ~/.bashrc
 fi
 
 # Env
-alias bp='vim ~/.bash_profile'
-alias vimrc='vim /etc/vimrc'
+# Check if .bash_profile exists (for Windows)
+if [ -f ~/.bash_profile ]
+then
+  alias bp='vim ~/.bash_profile'
+else
+  alias bp='vim ~/.bashrc'
+fi
+
+# Check if .vimrc exists
+if [ -f ~/.vimrc ]
+then
+  alias vimrc='vim ~/.vimrc'
+else
+  alias vimrc='vim /etc/vimrc'
+fi
 
 # Dir
 alias academico='cd ~/Documents/Gitlab/Academico'
