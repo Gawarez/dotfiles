@@ -34,12 +34,11 @@ alias dlf='docker logs -f'
 alias dspaf='docker system prune -af'
 
 # Kubernetes
-alias kc='kubectl'
-alias kcl='kubectl logs'
-alias kca='kubectl get all'
-alias kce='kubectl exec'
-alias mk='microk8s'
-alias mkctl='microk8s kubectl'
+alias k='kubectl'
+# Microk8s
+# alias mk='microk8s'
+# Minikube
+alias mk='minikube'
 
 # Git
 alias gs='git status'
