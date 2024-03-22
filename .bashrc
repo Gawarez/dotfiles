@@ -37,6 +37,7 @@ alias dspaf='docker system prune -af'
 alias mk='microk8s'
 alias k='kubectl'
 alias h='helm'
+alias kdel="kubectl delete all --all -n "
 
 # Git
 alias gs='git status'
