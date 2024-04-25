@@ -26,6 +26,7 @@ alias dcu='docker compose up -d --build'
 alias dnls='docker network ls'
 alias dlf='docker logs -f'
 alias dspaf='docker system prune -af'
+alias di='docker images'
 
 # Kubernetes
 alias mk='microk8s'
@@ -48,3 +49,5 @@ alias gb='git branch'
 alias glab='cd ~/Documents/Gitlab'
 alias ghub='cd ~/Documents/Github'
 
+# Tools
+alias rn='ranger'
