@@ -51,3 +51,4 @@ alias ghub='cd ~/Documents/Github'
 
 # Tools
 alias rn='ranger'
+alias rc='rclone'
