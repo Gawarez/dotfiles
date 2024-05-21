@@ -20,7 +20,7 @@ alias academico='cd ~/Documents/Gitlab/Academico'
 alias git-base='cd $(git rev-parse --show-toplevel)'
 
 # Docker
-alias dpsa='docker ps -a'
+alias dpsa='docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}"'
 alias dcd='docker compose down'
 alias dcu='docker compose up -d --build'
 alias dnls='docker network ls'
