@@ -34,6 +34,9 @@ alias k='kubectl'
 alias h='helm'
 alias kdel="kubectl delete all --all -n "
 
+# Terraform
+alias tf='terraform'
+
 # Git
 alias gs='git status'
 alias gpo='git push origin'
