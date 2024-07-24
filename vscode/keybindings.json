@@ -1,0 +1,11 @@
+// Ctrl + Tab switching based on tab order
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    }
+]
