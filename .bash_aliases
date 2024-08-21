@@ -22,7 +22,7 @@ alias git-base='cd $(git rev-parse --show-toplevel)'
 # Docker
 alias dpsa='docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.RunningFor}}\t{{.Status}}\t{{.Ports}}"'
 alias dcd='docker compose down'
-alias dcu='docker compose up -d --build'
+alias dcu='docker compose up -d'
 alias dnls='docker network ls'
 alias dlf='docker logs -f'
 alias dspaf='docker system prune -af'
