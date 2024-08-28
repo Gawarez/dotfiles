@@ -1,0 +1,57 @@
+{
+    "actions": 
+    [
+        {
+            "command": "openTabColorPicker",
+            "id": "User.openTabColorPicker",
+            "keys": "ctrl+alt+d"
+        },
+
+        {
+            "command": "openTabRenamer",
+            "id": "User.openTabRenamer",
+            "keys": "ctrl+alt+r"
+        }
+    ],
+
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{}",
+    "firstWindowPreference": "defaultProfile",
+    "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "none"
+        },
+        "list": 
+        [
+            {
+                "closeOnExit": "always",
+                "colorScheme": "One Half Dark",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "font": 
+                {
+                    "size": 10
+                },
+                "guid": "{}",
+                "hidden": false,
+                "icon": "C:\\Users\\user\\Pictures\\Icons\\Git-Icon.png",
+                "name": "Bash",
+                "startingDirectory": "%USERPROFILE%",
+                "suppressApplicationTitle": true
+            }
+        ]
+    },
+
+    "schemes": [],
+    "themes": []
+}
