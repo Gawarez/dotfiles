@@ -37,6 +37,9 @@ alias kdel="kubectl delete all --all -n "
 # Terraform
 alias tf='terraform'
 
+# Vagrant
+alias vg='vagrant'
+
 # Git
 alias gs='git status'
 alias gpo='git push origin'
