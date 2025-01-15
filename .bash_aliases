@@ -58,3 +58,4 @@ alias ghub='cd ~/Documents/Github'
 # Tools
 alias rn='ranger'
 alias rc='rclone'
+alias bat='bat --paging=always'
