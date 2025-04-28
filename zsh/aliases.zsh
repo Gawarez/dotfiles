@@ -24,6 +24,7 @@ alias rc='rclone'
 alias obsi='cd /home/gabriel/Documents/obsidian-notes'
 alias vg='vagrant'
 alias py='python3'
+alias ff='fastfetch'
 
 # Dir
 alias ghub='cd ~/Documents/github'
