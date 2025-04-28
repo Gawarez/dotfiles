@@ -3,7 +3,7 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="bira" # set by `omz`
+ZSH_THEME="gentoo" # set by `omz`
 
 # zsh-autosuggestions - https://github.com/zsh-users/zsh-autosuggestions - install before enabling
 plugins=(git zsh-autosuggestions copyfile ssh web-search gitignore)
