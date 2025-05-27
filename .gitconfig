@@ -1,2 +1,12 @@
+[user]
+        name = Gawarez
+        email = gabrieltbaggio@gmail.com
+
+[pager]
+        status = false
+        branch = false
+        diff = true
+        log = true
+
 [alias]
         whatadded = log --diff-filter=A
