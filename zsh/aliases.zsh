@@ -25,6 +25,7 @@ alias obsi='cd /home/gabriel/Documents/obsidian-notes'
 alias vg='vagrant'
 alias py='python3'
 alias ff='fastfetch'
+alias fd='fdfind'
 
 # Dir
 alias ghub='cd ~/Documents/github'
