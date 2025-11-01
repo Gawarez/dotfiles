@@ -26,6 +26,7 @@ alias vg='vagrant'
 alias py='python3'
 alias ff='fastfetch'
 alias fd='fdfind'
+alias lg='lazygit'
 
 # Dir
 alias ghub='cd ~/Documents/github'
