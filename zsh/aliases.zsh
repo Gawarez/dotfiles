@@ -27,6 +27,7 @@ alias py='python3'
 alias ff='fastfetch'
 alias fd='fdfind'
 alias lg='lazygit'
+alias t='tmux'
 
 # Dir
 alias ghub='cd ~/Documents/github'
