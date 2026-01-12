@@ -17,6 +17,7 @@ alias gl='git log'
 alias glp='git log --pretty=oneline'
 alias gsb='git switch'
 alias gb='git branch'
+alias gw='git worktree'
 
 # Tools
 alias rn='ranger'
