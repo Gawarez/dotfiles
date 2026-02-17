@@ -36,5 +36,5 @@ alias ghub='cd ~/Documents/github'
 alias glab='cd ~/Documents/gitlab'
 alias acad='cd ~/Documents/gitlab/academico'
 
-# Batcat
-alias bat='bat --paging=always'
+# Functions
+function mann () {man $1 | batcat -l man --pager "less -i"}
