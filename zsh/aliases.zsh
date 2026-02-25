@@ -37,4 +37,4 @@ alias glab='cd ~/Documents/gitlab'
 alias acad='cd ~/Documents/gitlab/academico'
 
 # Functions
-function bat () {batcat -l $1 --pager "less -i"}
+function bat () {batcat -l $1 --pager "less -i" --decorations=never}
