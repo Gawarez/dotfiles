@@ -1,11 +1,13 @@
+
 # Docker
 alias dpsa='docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.RunningFor}}\t{{.Status}}\t{{.Ports}}"'
 alias dcd='docker compose down'
 alias dcu='docker compose up -d'
 alias dn='docker network'
-alias di='docker image'
 alias dlf='docker logs -f'
 alias dspaf='docker system prune -af'
+alias di='docker image'
+alias dv='docker volume'
 
 # Git
 alias gs='git status'
