@@ -32,6 +32,7 @@ alias fd='fdfind'
 alias lg='lazygit'
 alias t='tmux'
 alias bc='batcat --pager "less -i"'
+alias xd='xdg-open'
 
 # Dir
 alias ghub='cd ~/Documents/github'
